@@ -3,7 +3,7 @@ import axios from 'axios';
 import { fetchRefreshToken } from '@/api/auth';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://mockstocks.duckdns.org',
+  baseURL: 'http://localhost:8080',
   timeout: 5000,
   headers: {
     'Content-Type': 'application/json',

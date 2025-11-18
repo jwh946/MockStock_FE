@@ -15,7 +15,7 @@ const AuthPage = () => {
         <h1 className="logo">MockStock</h1>
         <p className="description">가상 투자로 주식의 재미를 경험하세요</p>
         <ul className="feature-list">
-          <li>✅ 초기 자금 1,000만원 제공</li>
+          <li>✅ 초기 자금 3,000만원 제공</li>
           <li>✅ 실시간 주식 데이터 연동</li>
           <li>✅ 모의 투자 랭킹 시스템</li>
           <li>✅ 포트폴리오 관리 기능</li>

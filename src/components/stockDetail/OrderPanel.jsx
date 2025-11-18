@@ -201,12 +201,12 @@ const OrderPanel = ({ initialPrice, onSubmit, availableCash, ownedQuantity, curr
           </div>
 
           <div className="order-summary">
-            {orderType === 'sell' && fee > 0 && (
+            {/* {orderType === 'sell' && fee > 0 && (
               <div className="summary-item">
                 <span>수수료(0.25%)</span>
                 <span>- {fee.toLocaleString(undefined, { maximumFractionDigits: 0 })} 원</span>
               </div>
-            )}
+            )} */}
             <div className="summary-item total">
               <span>{orderType === 'buy' ? '총 매수 금액' : '총 매도 금액'}</span>
               <span>{finalAmount.toLocaleString(undefined, { maximumFractionDigits: 0 })} 원</span>
