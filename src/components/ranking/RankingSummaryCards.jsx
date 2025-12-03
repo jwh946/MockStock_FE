@@ -6,7 +6,7 @@ const RankingSummaryCards = () => {
   useEffect(() => {
     const fetchSummary = async () => {
       try {
-        const response = await fetch("http://localhost:8080/ranks/summary");
+        const response = await fetch("http://mockstock.duckdns.org/ranks/summary");
         if (!response.ok) throw new Error("API 요청 실패");
 
         const data = await response.json();

@@ -66,7 +66,7 @@ const Login = () => {
           type="button"
           className="social-btn kakao"
           onClick={() => {
-            window.location.href = 'http://localhost:8080/oauth2/authorization/kakao';
+            window.location.href = 'http://mockstock.duckdns.org/oauth2/authorization/kakao';
           }}
         >
           카카오로 시작하기
@@ -75,7 +75,7 @@ const Login = () => {
           type="button"
           className="social-btn google"
           onClick={() => {
-            window.location.href = 'http://localhost:8080/oauth2/authorization/google';
+            window.location.href = 'http://mockstock.duckdns.org/oauth2/authorization/google';
           }}
         >
           Google로 시작하기
@@ -84,7 +84,7 @@ const Login = () => {
           type="button"
           className="social-btn naver"
           onClick={() => {
-            window.location.href = 'http://localhost:8080/oauth2/authorization/naver';
+            window.location.href = 'http://mockstock.duckdns.org/oauth2/authorization/naver';
           }}
         >
           네이버로 시작하기
