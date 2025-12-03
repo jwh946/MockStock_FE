@@ -28,7 +28,7 @@ export const useStockSocket = (stockCodes) => {
     }
 
     if (!stompClient.current) {
-      const socket = new window.SockJS('http://mockstock.duckdns.org/ws-stock');
+      const socket = new window.SockJS('https://mockstock.duckdns.org/ws-stock');
 
       const client = window.Stomp.over(socket);
 
